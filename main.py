@@ -12,7 +12,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-  return 'Sveiki datortehnikas uzskaites sistēmā!'
+  return 'Sveiki Datortehnikas Uzskaites Sistēmā!'
 
 #uldis teste
 @app.route('/dati/<jsonFile>', methods=['GET'])
